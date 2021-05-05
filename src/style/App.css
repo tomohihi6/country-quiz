@@ -129,3 +129,62 @@
   width: 25%;
   height: 100%;
 }
+
+.Result-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 520px;
+  background-color: white;
+  border-radius: 24px;
+  margin-top: 16px;
+  align-items: center;
+  padding: 32px 32px;
+}
+
+.Result-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #1d355d;
+  margin-top: 72px;
+}
+
+.Result-correct-num-sentence {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1d355d;
+  margin-top: 16px;
+}
+
+.Result-correct-num {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 27px;
+  color: #27c37c;
+}
+
+.Try-again-button {
+  margin-top: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 62px;
+  border: 2px solid #1d355d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1d355d;
+}
