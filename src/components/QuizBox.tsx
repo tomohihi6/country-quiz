@@ -9,12 +9,23 @@ export const QuizBox: React.FC = () => {
     optionSentence: 'hoge hoge',
   };
   const a = false;
+  const isCountryFlag = false;
 
   return (
     <div className="Quiz-box">
       <div className="Quiz-title">COUNTRY QUIZ</div>
       <div className="Quiz-container">
-        <div className="Question-sentence">hoge hoge sentence</div>
+        <div style={{ marginTop: 68 }}>
+          <div
+            style={
+              isCountryFlag
+                ? { width: 84, height: 54, borderRadius: 4 }
+                : { display: 'none' }
+            }>
+            旗
+          </div>
+          <div className="Question-sentence">hoge hoge sentence</div>
+        </div>
         <div className="Question-options-container">
           <QuizOption {...questionInfo} />
           <QuizOption {...questionInfo} />

@@ -6,7 +6,7 @@ import 'style/App.css';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Result />
+      <QuizBox />
     </div>
   );
 };
